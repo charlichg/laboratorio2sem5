@@ -92,6 +92,7 @@ try {
   border-radius: 4px;
   padding: 5px;
   width: 150px;
+height: 200px;
 }
         /* Style the buttons */
         .btn {
