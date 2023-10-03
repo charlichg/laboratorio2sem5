@@ -87,9 +87,11 @@ try {
             display: block;
         }
 
-        img {
-max-width: 100%;
-height: auto;
+       img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
 }
         /* Style the buttons */
         .btn {
