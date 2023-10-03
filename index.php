@@ -87,6 +87,10 @@ try {
             display: block;
         }
 
+        img {
+max-width: 100%;
+height: auto;
+}
         /* Style the buttons */
         .btn {
             border: none;
