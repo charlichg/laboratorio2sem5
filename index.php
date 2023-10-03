@@ -87,7 +87,7 @@ try {
             display: block;
         }
 
-       .img {
+       img {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
@@ -135,7 +135,7 @@ try {
         <?php while ($row = $steament->fetch(PDO::FETCH_ASSOC)) { ?>
             <div class="<?= $row['Clase'] ?>">
                 <div class="content">
-                    <img src="<?=$row['Imagen'] ?>" class="img" alt="Mountains" style="width:100%">
+                    <img src="<?=$row['Imagen'] ?>" alt="Mountains">
                     <h4><?= $row['Nombre'] ?></h4>
                     <p><?= $row['Descripcion'] ?></p>
                 </div>
