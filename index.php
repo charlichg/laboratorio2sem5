@@ -129,6 +129,7 @@ height: 200px;
             <button class="btn" onclick="filterSelection('nature')"> Nature</button>
             <button class="btn" onclick="filterSelection('cars')"> Cars</button>
             <button class="btn" onclick="filterSelection('people')"> People</button>
+            <button class="btn" onclick="filterSelection('house')"> House</button>
         </div>
 
         <!-- Portfolio Gallery Grid -->
